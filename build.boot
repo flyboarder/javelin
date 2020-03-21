@@ -1,7 +1,6 @@
 (set-env!
   :dependencies   (template [[org.clojure/clojure             ~(clojure-version)]
                              [org.clojure/clojurescript       "1.10.439"]
-                             [adzerk/bootlaces                "0.1.10"    :scope "test"]
                              [adzerk/boot-cljs                "1.7.228-2" :scope "test"]
                              [degree9/boot-semver             "1.8.0"     :scope "test"]
                              [tailrecursion/cljs-priority-map "1.0.3"]
